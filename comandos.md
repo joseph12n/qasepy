@@ -1,6 +1,6 @@
 # Carga KN-Store a Qase
 
-El importador ahora se ejecuta directamente desde terminal con argumentos. El valor de `--project` debe ser el código del proyecto que devuelve Qase en `/v1/project`, no el token.
+El importador se ejecuta directamente desde terminal. El valor de `--project` debe ser el código del proyecto que devuelve Qase en `/v1/project`, no el token.
 
 ## Linux / macOS
 
@@ -22,7 +22,7 @@ curl.exe -s "https://api.qase.io/v1/project" -H "Token: TU_TOKEN" -H "Accept: ap
 python qase_import.py --token "TU_TOKEN" --project "TU_CODIGO_DE_PROYECTO"
 ```
 
-Si quieres evitar pasar argumentos en cada ejecución, también puedes usar variables de entorno:
+Alternativa con variables de entorno:
 
 Linux / macOS:
 ```bash
