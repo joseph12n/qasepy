@@ -1,0 +1,62 @@
+[
+  {
+    "title": "KN-Store",
+    "parent_title": null
+  },
+  {
+    "title": "Requerimientos Funcionales (RF)",
+    "parent_title": "KN-Store"
+  },
+  {
+    "title": "Módulo de Autenticación y Sesión",
+    "parent_title": "Requerimientos Funcionales (RF)"
+  },
+  {
+    "title": "Módulo de Gestión de Usuarios (Administración)",
+    "parent_title": "Requerimientos Funcionales (RF)"
+  },
+  {
+    "title": "Módulo de Gestión de Categorías y Subcategorías",
+    "parent_title": "Requerimientos Funcionales (RF)"
+  },
+  {
+    "title": "Módulo de Gestión de Productos y Catálogo Público",
+    "parent_title": "Requerimientos Funcionales (RF)"
+  },
+  {
+    "title": "Módulos de Perfil, Panel Admin y Direcciones",
+    "parent_title": "Requerimientos Funcionales (RF)"
+  },
+  {
+    "title": "Módulo de Carrito y Pedidos",
+    "parent_title": "Requerimientos Funcionales (RF)"
+  },
+  {
+    "title": "Módulos de Pagos, Envíos y Facturación",
+    "parent_title": "Requerimientos Funcionales (RF)"
+  },
+  {
+    "title": "Requerimientos No Funcionales (RNF)",
+    "parent_title": "KN-Store"
+  },
+  {
+    "title": "Seguridad",
+    "parent_title": "Requerimientos No Funcionales (RNF)"
+  },
+  {
+    "title": "Rendimiento",
+    "parent_title": "Requerimientos No Funcionales (RNF)"
+  },
+  {
+    "title": "Usabilidad",
+    "parent_title": "Requerimientos No Funcionales (RNF)"
+  },
+  {
+    "title": "Mantenibilidad y Compatibilidad",
+    "parent_title": "Requerimientos No Funcionales (RNF)"
+  },
+  {
+    "title": "Disponibilidad, Escalabilidad e Integridad",
+    "parent_title": "Requerimientos No Funcionales (RNF)"
+  }
+]

@@ -1,0 +1,1237 @@
+[
+  {
+    "code": "RF-001",
+    "title": "RF-001 - Registro de usuario nuevo",
+    "description": "Permite a un visitante anónimo registrarse proporcionando nombre, correo electrónico y contraseña.",
+    "status": "Implemented",
+    "type": "Feature",
+    "parent_title": "Módulo de Autenticación y Sesión",
+    "suite_path": [
+      "KN-Store",
+      "Requerimientos Funcionales (RF)",
+      "Módulo de Autenticación y Sesión"
+    ]
+  },
+  {
+    "code": "RF-002",
+    "title": "RF-002 - Inicio de sesión",
+    "description": "Permite a un usuario registrado iniciar sesión mediante correo y contraseña para emitir un token JWT.",
+    "status": "Implemented",
+    "type": "Feature",
+    "parent_title": "Módulo de Autenticación y Sesión",
+    "suite_path": [
+      "KN-Store",
+      "Requerimientos Funcionales (RF)",
+      "Módulo de Autenticación y Sesión"
+    ]
+  },
+  {
+    "code": "RF-003",
+    "title": "RF-003 - Cierre de sesión",
+    "description": "Permite al usuario autenticado cerrar sesión invalidando localmente el token.",
+    "status": "Implemented",
+    "type": "Feature",
+    "parent_title": "Módulo de Autenticación y Sesión",
+    "suite_path": [
+      "KN-Store",
+      "Requerimientos Funcionales (RF)",
+      "Módulo de Autenticación y Sesión"
+    ]
+  },
+  {
+    "code": "RF-004",
+    "title": "RF-004 - Verificación automática de sesión",
+    "description": "Verifica la existencia y vigencia del token JWT al cargar el frontend.",
+    "status": "Implemented",
+    "type": "Feature",
+    "parent_title": "Módulo de Autenticación y Sesión",
+    "suite_path": [
+      "KN-Store",
+      "Requerimientos Funcionales (RF)",
+      "Módulo de Autenticación y Sesión"
+    ]
+  },
+  {
+    "code": "RF-005",
+    "title": "RF-005 - Protección de rutas",
+    "description": "Un middleware intercepta rutas restringidas para validar el token JWT y el rol del usuario.",
+    "status": "Implemented",
+    "type": "Feature",
+    "parent_title": "Módulo de Autenticación y Sesión",
+    "suite_path": [
+      "KN-Store",
+      "Requerimientos Funcionales (RF)",
+      "Módulo de Autenticación y Sesión"
+    ]
+  },
+  {
+    "code": "RF-006",
+    "title": "RF-006 - Listar todos los usuarios",
+    "description": "El rol Admin puede obtener la lista de todos los usuarios registrados.",
+    "status": "Implemented",
+    "type": "Feature",
+    "parent_title": "Módulo de Gestión de Usuarios (Administración)",
+    "suite_path": [
+      "KN-Store",
+      "Requerimientos Funcionales (RF)",
+      "Módulo de Gestión de Usuarios (Administración)"
+    ]
+  },
+  {
+    "code": "RF-007",
+    "title": "RF-007 - Consultar usuario por identificador",
+    "description": "El rol Admin puede consultar el detalle de cualquier usuario.",
+    "status": "Implemented",
+    "type": "Feature",
+    "parent_title": "Módulo de Gestión de Usuarios (Administración)",
+    "suite_path": [
+      "KN-Store",
+      "Requerimientos Funcionales (RF)",
+      "Módulo de Gestión de Usuarios (Administración)"
+    ]
+  },
+  {
+    "code": "RF-008",
+    "title": "RF-008 - Crear usuario con rol arbitrario",
+    "description": "Permite al Admin crear nuevos usuarios especificando su rol.",
+    "status": "Implemented",
+    "type": "Feature",
+    "parent_title": "Módulo de Gestión de Usuarios (Administración)",
+    "suite_path": [
+      "KN-Store",
+      "Requerimientos Funcionales (RF)",
+      "Módulo de Gestión de Usuarios (Administración)"
+    ]
+  },
+  {
+    "code": "RF-009",
+    "title": "RF-009 - Actualizar datos de un usuario",
+    "description": "Permite al Admin modificar los atributos de cualquier usuario.",
+    "status": "Implemented",
+    "type": "Feature",
+    "parent_title": "Módulo de Gestión de Usuarios (Administración)",
+    "suite_path": [
+      "KN-Store",
+      "Requerimientos Funcionales (RF)",
+      "Módulo de Gestión de Usuarios (Administración)"
+    ]
+  },
+  {
+    "code": "RF-010",
+    "title": "RF-010 - Eliminar usuario (lógica y física)",
+    "description": "Permite al Admin realizar eliminación lógica, y tras una segunda invocación, eliminación física.",
+    "status": "Implemented",
+    "type": "Feature",
+    "parent_title": "Módulo de Gestión de Usuarios (Administración)",
+    "suite_path": [
+      "KN-Store",
+      "Requerimientos Funcionales (RF)",
+      "Módulo de Gestión de Usuarios (Administración)"
+    ]
+  },
+  {
+    "code": "RF-011",
+    "title": "RF-011 - Listar categorías públicamente",
+    "description": "Expone la lista de categorías activas sin requerir autenticación.",
+    "status": "Implemented",
+    "type": "Feature",
+    "parent_title": "Módulo de Gestión de Categorías y Subcategorías",
+    "suite_path": [
+      "KN-Store",
+      "Requerimientos Funcionales (RF)",
+      "Módulo de Gestión de Categorías y Subcategorías"
+    ]
+  },
+  {
+    "code": "RF-012",
+    "title": "RF-012 - Consultar categoría por identificador",
+    "description": "Permite consultar el detalle de una categoría específica.",
+    "status": "Implemented",
+    "type": "Feature",
+    "parent_title": "Módulo de Gestión de Categorías y Subcategorías",
+    "suite_path": [
+      "KN-Store",
+      "Requerimientos Funcionales (RF)",
+      "Módulo de Gestión de Categorías y Subcategorías"
+    ]
+  },
+  {
+    "code": "RF-013",
+    "title": "RF-013 - Crear categoría",
+    "description": "Permite a Manager y Admin crear nuevas categorías.",
+    "status": "Implemented",
+    "type": "Feature",
+    "parent_title": "Módulo de Gestión de Categorías y Subcategorías",
+    "suite_path": [
+      "KN-Store",
+      "Requerimientos Funcionales (RF)",
+      "Módulo de Gestión de Categorías y Subcategorías"
+    ]
+  },
+  {
+    "code": "RF-014",
+    "title": "RF-014 - Actualizar categoría",
+    "description": "Permite a Manager y Admin actualizar atributos de una categoría.",
+    "status": "Implemented",
+    "type": "Feature",
+    "parent_title": "Módulo de Gestión de Categorías y Subcategorías",
+    "suite_path": [
+      "KN-Store",
+      "Requerimientos Funcionales (RF)",
+      "Módulo de Gestión de Categorías y Subcategorías"
+    ]
+  },
+  {
+    "code": "RF-015",
+    "title": "RF-015 - Eliminar categoría",
+    "description": "Permite al Admin eliminar categorías.",
+    "status": "Implemented",
+    "type": "Feature",
+    "parent_title": "Módulo de Gestión de Categorías y Subcategorías",
+    "suite_path": [
+      "KN-Store",
+      "Requerimientos Funcionales (RF)",
+      "Módulo de Gestión de Categorías y Subcategorías"
+    ]
+  },
+  {
+    "code": "RF-016",
+    "title": "RF-016 - Listar y consultar subcategorías públicamente",
+    "description": "Expone la lista de subcategorías activas.",
+    "status": "Implemented",
+    "type": "Feature",
+    "parent_title": "Módulo de Gestión de Categorías y Subcategorías",
+    "suite_path": [
+      "KN-Store",
+      "Requerimientos Funcionales (RF)",
+      "Módulo de Gestión de Categorías y Subcategorías"
+    ]
+  },
+  {
+    "code": "RF-017",
+    "title": "RF-017 - Crear subcategoría",
+    "description": "Permite a Manager y Admin crear subcategorías.",
+    "status": "Implemented",
+    "type": "Feature",
+    "parent_title": "Módulo de Gestión de Categorías y Subcategorías",
+    "suite_path": [
+      "KN-Store",
+      "Requerimientos Funcionales (RF)",
+      "Módulo de Gestión de Categorías y Subcategorías"
+    ]
+  },
+  {
+    "code": "RF-018",
+    "title": "RF-018 - Actualizar subcategoría",
+    "description": "Permite modificar atributos de una subcategoría existente.",
+    "status": "Implemented",
+    "type": "Feature",
+    "parent_title": "Módulo de Gestión de Categorías y Subcategorías",
+    "suite_path": [
+      "KN-Store",
+      "Requerimientos Funcionales (RF)",
+      "Módulo de Gestión de Categorías y Subcategorías"
+    ]
+  },
+  {
+    "code": "RF-019",
+    "title": "RF-019 - Eliminar subcategoría",
+    "description": "Permite al Admin eliminar subcategorías.",
+    "status": "Implemented",
+    "type": "Feature",
+    "parent_title": "Módulo de Gestión de Categorías y Subcategorías",
+    "suite_path": [
+      "KN-Store",
+      "Requerimientos Funcionales (RF)",
+      "Módulo de Gestión de Categorías y Subcategorías"
+    ]
+  },
+  {
+    "code": "RF-020",
+    "title": "RF-020 - Crear producto con variantes",
+    "description": "Permite a Manager y Admin crear productos.",
+    "status": "Implemented",
+    "type": "Feature",
+    "parent_title": "Módulo de Gestión de Productos y Catálogo Público",
+    "suite_path": [
+      "KN-Store",
+      "Requerimientos Funcionales (RF)",
+      "Módulo de Gestión de Productos y Catálogo Público"
+    ]
+  },
+  {
+    "code": "RF-021",
+    "title": "RF-021 - Actualizar producto",
+    "description": "Permite actualizar cualquier atributo de un producto existente.",
+    "status": "Implemented",
+    "type": "Feature",
+    "parent_title": "Módulo de Gestión de Productos y Catálogo Público",
+    "suite_path": [
+      "KN-Store",
+      "Requerimientos Funcionales (RF)",
+      "Módulo de Gestión de Productos y Catálogo Público"
+    ]
+  },
+  {
+    "code": "RF-022",
+    "title": "RF-022 - Cálculo automático de precios",
+    "description": "Calcula dinámicamente precio final, utilidad y margen.",
+    "status": "Implemented",
+    "type": "Feature",
+    "parent_title": "Módulo de Gestión de Productos y Catálogo Público",
+    "suite_path": [
+      "KN-Store",
+      "Requerimientos Funcionales (RF)",
+      "Módulo de Gestión de Productos y Catálogo Público"
+    ]
+  },
+  {
+    "code": "RF-023",
+    "title": "RF-023 - Eliminar producto",
+    "description": "Permite al rol Admin eliminar productos.",
+    "status": "Implemented",
+    "type": "Feature",
+    "parent_title": "Módulo de Gestión de Productos y Catálogo Público",
+    "suite_path": [
+      "KN-Store",
+      "Requerimientos Funcionales (RF)",
+      "Módulo de Gestión de Productos y Catálogo Público"
+    ]
+  },
+  {
+    "code": "RF-024",
+    "title": "RF-024 - Indexación full-text",
+    "description": "Declara índices de texto para soportar búsquedas eficientes.",
+    "status": "Implemented",
+    "type": "Feature",
+    "parent_title": "Módulo de Gestión de Productos y Catálogo Público",
+    "suite_path": [
+      "KN-Store",
+      "Requerimientos Funcionales (RF)",
+      "Módulo de Gestión de Productos y Catálogo Público"
+    ]
+  },
+  {
+    "code": "RF-025",
+    "title": "RF-025 - Listar productos con filtros y paginación",
+    "description": "Permite consultar productos con parámetros de búsqueda.",
+    "status": "Implemented",
+    "type": "Feature",
+    "parent_title": "Módulo de Gestión de Productos y Catálogo Público",
+    "suite_path": [
+      "KN-Store",
+      "Requerimientos Funcionales (RF)",
+      "Módulo de Gestión de Productos y Catálogo Público"
+    ]
+  },
+  {
+    "code": "RF-026",
+    "title": "RF-026 - Consultar producto por slug",
+    "description": "Permite consultar el detalle completo de un producto mediante su slug.",
+    "status": "Implemented",
+    "type": "Feature",
+    "parent_title": "Módulo de Gestión de Productos y Catálogo Público",
+    "suite_path": [
+      "KN-Store",
+      "Requerimientos Funcionales (RF)",
+      "Módulo de Gestión de Productos y Catálogo Público"
+    ]
+  },
+  {
+    "code": "RF-027",
+    "title": "RF-027 - Filtrar productos por categoría",
+    "description": "Filtra productos por una categoría específica.",
+    "status": "Implemented",
+    "type": "Feature",
+    "parent_title": "Módulo de Gestión de Productos y Catálogo Público",
+    "suite_path": [
+      "KN-Store",
+      "Requerimientos Funcionales (RF)",
+      "Módulo de Gestión de Productos y Catálogo Público"
+    ]
+  },
+  {
+    "code": "RF-028",
+    "title": "RF-028 - Filtrar productos por subcategoría",
+    "description": "Filtra productos por una subcategoría específica.",
+    "status": "Implemented",
+    "type": "Feature",
+    "parent_title": "Módulo de Gestión de Productos y Catálogo Público",
+    "suite_path": [
+      "KN-Store",
+      "Requerimientos Funcionales (RF)",
+      "Módulo de Gestión de Productos y Catálogo Público"
+    ]
+  },
+  {
+    "code": "RF-029",
+    "title": "RF-029 - Filtrar productos por marca",
+    "description": "Consulta productos por su marca.",
+    "status": "Implemented",
+    "type": "Feature",
+    "parent_title": "Módulo de Gestión de Productos y Catálogo Público",
+    "suite_path": [
+      "KN-Store",
+      "Requerimientos Funcionales (RF)",
+      "Módulo de Gestión de Productos y Catálogo Público"
+    ]
+  },
+  {
+    "code": "RF-030",
+    "title": "RF-030 - Filtrar productos por etiqueta",
+    "description": "Consulta productos que incluyen una etiqueta solicitada.",
+    "status": "Implemented",
+    "type": "Feature",
+    "parent_title": "Módulo de Gestión de Productos y Catálogo Público",
+    "suite_path": [
+      "KN-Store",
+      "Requerimientos Funcionales (RF)",
+      "Módulo de Gestión de Productos y Catálogo Público"
+    ]
+  },
+  {
+    "code": "RF-031",
+    "title": "RF-031 - Consultar perfil propio",
+    "description": "Permite a un usuario autenticado consultar su propio perfil.",
+    "status": "Implemented",
+    "type": "Feature",
+    "parent_title": "Módulos de Perfil, Panel Admin y Direcciones",
+    "suite_path": [
+      "KN-Store",
+      "Requerimientos Funcionales (RF)",
+      "Módulos de Perfil, Panel Admin y Direcciones"
+    ]
+  },
+  {
+    "code": "RF-032",
+    "title": "RF-032 - Eliminar perfil propio",
+    "description": "Permite a un usuario autenticado solicitar la eliminación de su cuenta.",
+    "status": "Implemented",
+    "type": "Feature",
+    "parent_title": "Módulos de Perfil, Panel Admin y Direcciones",
+    "suite_path": [
+      "KN-Store",
+      "Requerimientos Funcionales (RF)",
+      "Módulos de Perfil, Panel Admin y Direcciones"
+    ]
+  },
+  {
+    "code": "RF-033",
+    "title": "RF-033 - Editar datos del perfil propio",
+    "description": "Ofrece interfaz para que el usuario edite sus datos.",
+    "status": "Review",
+    "type": "Feature",
+    "parent_title": "Módulos de Perfil, Panel Admin y Direcciones",
+    "suite_path": [
+      "KN-Store",
+      "Requerimientos Funcionales (RF)",
+      "Módulos de Perfil, Panel Admin y Direcciones"
+    ]
+  },
+  {
+    "code": "RF-034",
+    "title": "RF-034 - Acceso al panel administrativo",
+    "description": "Expone rutas bajo `/admin` segmentadas por rol.",
+    "status": "Implemented",
+    "type": "Feature",
+    "parent_title": "Módulos de Perfil, Panel Admin y Direcciones",
+    "suite_path": [
+      "KN-Store",
+      "Requerimientos Funcionales (RF)",
+      "Módulos de Perfil, Panel Admin y Direcciones"
+    ]
+  },
+  {
+    "code": "RF-035",
+    "title": "RF-035 - Operaciones CRUD desde la interfaz",
+    "description": "Ofrece interfaz visual para operaciones de creación, edición y eliminación.",
+    "status": "Implemented",
+    "type": "Feature",
+    "parent_title": "Módulos de Perfil, Panel Admin y Direcciones",
+    "suite_path": [
+      "KN-Store",
+      "Requerimientos Funcionales (RF)",
+      "Módulos de Perfil, Panel Admin y Direcciones"
+    ]
+  },
+  {
+    "code": "RF-036",
+    "title": "RF-036 - Visualización del estado",
+    "description": "Muestra el estado activo o inactivo de cada entidad.",
+    "status": "Implemented",
+    "type": "Feature",
+    "parent_title": "Módulos de Perfil, Panel Admin y Direcciones",
+    "suite_path": [
+      "KN-Store",
+      "Requerimientos Funcionales (RF)",
+      "Módulos de Perfil, Panel Admin y Direcciones"
+    ]
+  },
+  {
+    "code": "RF-037",
+    "title": "RF-037 - Crear dirección",
+    "description": "Permite registrar una nueva dirección de envío.",
+    "status": "Draft",
+    "type": "Feature",
+    "parent_title": "Módulos de Perfil, Panel Admin y Direcciones",
+    "suite_path": [
+      "KN-Store",
+      "Requerimientos Funcionales (RF)",
+      "Módulos de Perfil, Panel Admin y Direcciones"
+    ]
+  },
+  {
+    "code": "RF-038",
+    "title": "RF-038 - Listar direcciones propias",
+    "description": "Permite consultar direcciones registradas.",
+    "status": "Draft",
+    "type": "Feature",
+    "parent_title": "Módulos de Perfil, Panel Admin y Direcciones",
+    "suite_path": [
+      "KN-Store",
+      "Requerimientos Funcionales (RF)",
+      "Módulos de Perfil, Panel Admin y Direcciones"
+    ]
+  },
+  {
+    "code": "RF-039",
+    "title": "RF-039 - Editar dirección propia",
+    "description": "Permite al usuario editar sus direcciones.",
+    "status": "Draft",
+    "type": "Feature",
+    "parent_title": "Módulos de Perfil, Panel Admin y Direcciones",
+    "suite_path": [
+      "KN-Store",
+      "Requerimientos Funcionales (RF)",
+      "Módulos de Perfil, Panel Admin y Direcciones"
+    ]
+  },
+  {
+    "code": "RF-040",
+    "title": "RF-040 - Eliminar dirección propia",
+    "description": "Permite al usuario eliminar sus direcciones.",
+    "status": "Draft",
+    "type": "Feature",
+    "parent_title": "Módulos de Perfil, Panel Admin y Direcciones",
+    "suite_path": [
+      "KN-Store",
+      "Requerimientos Funcionales (RF)",
+      "Módulos de Perfil, Panel Admin y Direcciones"
+    ]
+  },
+  {
+    "code": "RF-041",
+    "title": "RF-041 - Marcar dirección como predeterminada",
+    "description": "Permite designar una dirección como predeterminada.",
+    "status": "Draft",
+    "type": "Feature",
+    "parent_title": "Módulos de Perfil, Panel Admin y Direcciones",
+    "suite_path": [
+      "KN-Store",
+      "Requerimientos Funcionales (RF)",
+      "Módulos de Perfil, Panel Admin y Direcciones"
+    ]
+  },
+  {
+    "code": "RF-042",
+    "title": "RF-042 - Agregar producto al carrito",
+    "description": "Permite añadir un producto al carrito o crear uno si no existe.",
+    "status": "Draft",
+    "type": "Feature",
+    "parent_title": "Módulo de Carrito y Pedidos",
+    "suite_path": [
+      "KN-Store",
+      "Requerimientos Funcionales (RF)",
+      "Módulo de Carrito y Pedidos"
+    ]
+  },
+  {
+    "code": "RF-043",
+    "title": "RF-043 - Consultar carrito",
+    "description": "Permite consultar el contenido actual del carrito.",
+    "status": "Draft",
+    "type": "Feature",
+    "parent_title": "Módulo de Carrito y Pedidos",
+    "suite_path": [
+      "KN-Store",
+      "Requerimientos Funcionales (RF)",
+      "Módulo de Carrito y Pedidos"
+    ]
+  },
+  {
+    "code": "RF-044",
+    "title": "RF-044 - Modificar cantidad de item",
+    "description": "Permite actualizar la cantidad de un producto en el carrito.",
+    "status": "Draft",
+    "type": "Feature",
+    "parent_title": "Módulo de Carrito y Pedidos",
+    "suite_path": [
+      "KN-Store",
+      "Requerimientos Funcionales (RF)",
+      "Módulo de Carrito y Pedidos"
+    ]
+  },
+  {
+    "code": "RF-045",
+    "title": "RF-045 - Eliminar item del carrito",
+    "description": "Permite remover un producto específico.",
+    "status": "Draft",
+    "type": "Feature",
+    "parent_title": "Módulo de Carrito y Pedidos",
+    "suite_path": [
+      "KN-Store",
+      "Requerimientos Funcionales (RF)",
+      "Módulo de Carrito y Pedidos"
+    ]
+  },
+  {
+    "code": "RF-046",
+    "title": "RF-046 - Vaciar carrito",
+    "description": "Elimina todos los items del carrito.",
+    "status": "Draft",
+    "type": "Feature",
+    "parent_title": "Módulo de Carrito y Pedidos",
+    "suite_path": [
+      "KN-Store",
+      "Requerimientos Funcionales (RF)",
+      "Módulo de Carrito y Pedidos"
+    ]
+  },
+  {
+    "code": "RF-047",
+    "title": "RF-047 - Confirmar pedido (checkout)",
+    "description": "Permite confirmar el carrito convirtiéndolo en pedido.",
+    "status": "Draft",
+    "type": "Feature",
+    "parent_title": "Módulo de Carrito y Pedidos",
+    "suite_path": [
+      "KN-Store",
+      "Requerimientos Funcionales (RF)",
+      "Módulo de Carrito y Pedidos"
+    ]
+  },
+  {
+    "code": "RF-048",
+    "title": "RF-048 - Cálculo automático del total",
+    "description": "Calcula el total a partir de la sumatoria de subtotales.",
+    "status": "Draft",
+    "type": "Feature",
+    "parent_title": "Módulo de Carrito y Pedidos",
+    "suite_path": [
+      "KN-Store",
+      "Requerimientos Funcionales (RF)",
+      "Módulo de Carrito y Pedidos"
+    ]
+  },
+  {
+    "code": "RF-049",
+    "title": "RF-049 - Cancelar pedido",
+    "description": "Permite cancelar un pedido en estado PENDING o CONFIRMED.",
+    "status": "Draft",
+    "type": "Feature",
+    "parent_title": "Módulo de Carrito y Pedidos",
+    "suite_path": [
+      "KN-Store",
+      "Requerimientos Funcionales (RF)",
+      "Módulo de Carrito y Pedidos"
+    ]
+  },
+  {
+    "code": "RF-050",
+    "title": "RF-050 - Listar pedidos propios",
+    "description": "Permite consultar historial de pedidos.",
+    "status": "Draft",
+    "type": "Feature",
+    "parent_title": "Módulo de Carrito y Pedidos",
+    "suite_path": [
+      "KN-Store",
+      "Requerimientos Funcionales (RF)",
+      "Módulo de Carrito y Pedidos"
+    ]
+  },
+  {
+    "code": "RF-051",
+    "title": "RF-051 - Listar todos los pedidos",
+    "description": "Permite a Admin y Manager consultar todos los pedidos.",
+    "status": "Draft",
+    "type": "Feature",
+    "parent_title": "Módulo de Carrito y Pedidos",
+    "suite_path": [
+      "KN-Store",
+      "Requerimientos Funcionales (RF)",
+      "Módulo de Carrito y Pedidos"
+    ]
+  },
+  {
+    "code": "RF-052",
+    "title": "RF-052 - Actualizar estado del pedido",
+    "description": "Permite promover el pedido por sus diferentes estados.",
+    "status": "Draft",
+    "type": "Feature",
+    "parent_title": "Módulo de Carrito y Pedidos",
+    "suite_path": [
+      "KN-Store",
+      "Requerimientos Funcionales (RF)",
+      "Módulo de Carrito y Pedidos"
+    ]
+  },
+  {
+    "code": "RF-053",
+    "title": "RF-053 - Consultar detalle de un pedido",
+    "description": "Consulta detalle completo incluyendo relaciones.",
+    "status": "Draft",
+    "type": "Feature",
+    "parent_title": "Módulo de Carrito y Pedidos",
+    "suite_path": [
+      "KN-Store",
+      "Requerimientos Funcionales (RF)",
+      "Módulo de Carrito y Pedidos"
+    ]
+  },
+  {
+    "code": "RF-054",
+    "title": "RF-054 - Iniciar proceso de pago",
+    "description": "Inicia pago indicando el método.",
+    "status": "Draft",
+    "type": "Feature",
+    "parent_title": "Módulos de Pagos, Envíos y Facturación",
+    "suite_path": [
+      "KN-Store",
+      "Requerimientos Funcionales (RF)",
+      "Módulos de Pagos, Envíos y Facturación"
+    ]
+  },
+  {
+    "code": "RF-055",
+    "title": "RF-055 - Procesar resultado del pago",
+    "description": "Interactúa con la pasarela externa para procesar el pago.",
+    "status": "Draft",
+    "type": "Feature",
+    "parent_title": "Módulos de Pagos, Envíos y Facturación",
+    "suite_path": [
+      "KN-Store",
+      "Requerimientos Funcionales (RF)",
+      "Módulos de Pagos, Envíos y Facturación"
+    ]
+  },
+  {
+    "code": "RF-056",
+    "title": "RF-056 - Validar coherencia de pago",
+    "description": "Verifica que el monto del pago coincida con el pedido.",
+    "status": "Draft",
+    "type": "Feature",
+    "parent_title": "Módulos de Pagos, Envíos y Facturación",
+    "suite_path": [
+      "KN-Store",
+      "Requerimientos Funcionales (RF)",
+      "Módulos de Pagos, Envíos y Facturación"
+    ]
+  },
+  {
+    "code": "RF-057",
+    "title": "RF-057 - Solicitar reembolso",
+    "description": "Permite al Admin iniciar un reembolso.",
+    "status": "Draft",
+    "type": "Feature",
+    "parent_title": "Módulos de Pagos, Envíos y Facturación",
+    "suite_path": [
+      "KN-Store",
+      "Requerimientos Funcionales (RF)",
+      "Módulos de Pagos, Envíos y Facturación"
+    ]
+  },
+  {
+    "code": "RF-058",
+    "title": "RF-058 - Consultar historial de pagos",
+    "description": "Permite al Admin consultar historial completo.",
+    "status": "Draft",
+    "type": "Feature",
+    "parent_title": "Módulos de Pagos, Envíos y Facturación",
+    "suite_path": [
+      "KN-Store",
+      "Requerimientos Funcionales (RF)",
+      "Módulos de Pagos, Envíos y Facturación"
+    ]
+  },
+  {
+    "code": "RF-059",
+    "title": "RF-059 - Consultar pago de pedido propio",
+    "description": "Permite al propietario consultar el estado de pago.",
+    "status": "Draft",
+    "type": "Feature",
+    "parent_title": "Módulos de Pagos, Envíos y Facturación",
+    "suite_path": [
+      "KN-Store",
+      "Requerimientos Funcionales (RF)",
+      "Módulos de Pagos, Envíos y Facturación"
+    ]
+  },
+  {
+    "code": "RF-060",
+    "title": "RF-060 - Crear envío para un pedido",
+    "description": "Permite a Admin y Manager crear registro de envío.",
+    "status": "Draft",
+    "type": "Feature",
+    "parent_title": "Módulos de Pagos, Envíos y Facturación",
+    "suite_path": [
+      "KN-Store",
+      "Requerimientos Funcionales (RF)",
+      "Módulos de Pagos, Envíos y Facturación"
+    ]
+  },
+  {
+    "code": "RF-061",
+    "title": "RF-061 - Asignar número de seguimiento",
+    "description": "Permite asignar número de tracking al envío.",
+    "status": "Draft",
+    "type": "Feature",
+    "parent_title": "Módulos de Pagos, Envíos y Facturación",
+    "suite_path": [
+      "KN-Store",
+      "Requerimientos Funcionales (RF)",
+      "Módulos de Pagos, Envíos y Facturación"
+    ]
+  },
+  {
+    "code": "RF-062",
+    "title": "RF-062 - Actualizar estado del envío",
+    "description": "Permite promover el envío entre estados logísticos.",
+    "status": "Draft",
+    "type": "Feature",
+    "parent_title": "Módulos de Pagos, Envíos y Facturación",
+    "suite_path": [
+      "KN-Store",
+      "Requerimientos Funcionales (RF)",
+      "Módulos de Pagos, Envíos y Facturación"
+    ]
+  },
+  {
+    "code": "RF-063",
+    "title": "RF-063 - Registrar devolución de envío",
+    "description": "Permite marcar envío como devuelto.",
+    "status": "Draft",
+    "type": "Feature",
+    "parent_title": "Módulos de Pagos, Envíos y Facturación",
+    "suite_path": [
+      "KN-Store",
+      "Requerimientos Funcionales (RF)",
+      "Módulos de Pagos, Envíos y Facturación"
+    ]
+  },
+  {
+    "code": "RF-064",
+    "title": "RF-064 - Consultar tracking propio",
+    "description": "Permite consultar seguimiento del envío propio.",
+    "status": "Draft",
+    "type": "Feature",
+    "parent_title": "Módulos de Pagos, Envíos y Facturación",
+    "suite_path": [
+      "KN-Store",
+      "Requerimientos Funcionales (RF)",
+      "Módulos de Pagos, Envíos y Facturación"
+    ]
+  },
+  {
+    "code": "RF-065",
+    "title": "RF-065 - Listar envíos pendientes",
+    "description": "Permite listar envíos para apoyar logística.",
+    "status": "Draft",
+    "type": "Feature",
+    "parent_title": "Módulos de Pagos, Envíos y Facturación",
+    "suite_path": [
+      "KN-Store",
+      "Requerimientos Funcionales (RF)",
+      "Módulos de Pagos, Envíos y Facturación"
+    ]
+  },
+  {
+    "code": "RF-066",
+    "title": "RF-066 - Generar factura automáticamente",
+    "description": "Genera registro al completarse el pago.",
+    "status": "Draft",
+    "type": "Feature",
+    "parent_title": "Módulos de Pagos, Envíos y Facturación",
+    "suite_path": [
+      "KN-Store",
+      "Requerimientos Funcionales (RF)",
+      "Módulos de Pagos, Envíos y Facturación"
+    ]
+  },
+  {
+    "code": "RF-067",
+    "title": "RF-067 - Generar referencia única",
+    "description": "Produce identificador legible y único de factura.",
+    "status": "Draft",
+    "type": "Feature",
+    "parent_title": "Módulos de Pagos, Envíos y Facturación",
+    "suite_path": [
+      "KN-Store",
+      "Requerimientos Funcionales (RF)",
+      "Módulos de Pagos, Envíos y Facturación"
+    ]
+  },
+  {
+    "code": "RF-068",
+    "title": "RF-068 - Consultar factura propia",
+    "description": "Permite al propietario consultar su factura.",
+    "status": "Draft",
+    "type": "Feature",
+    "parent_title": "Módulos de Pagos, Envíos y Facturación",
+    "suite_path": [
+      "KN-Store",
+      "Requerimientos Funcionales (RF)",
+      "Módulos de Pagos, Envíos y Facturación"
+    ]
+  },
+  {
+    "code": "RF-069",
+    "title": "RF-069 - Listar facturas",
+    "description": "Permite a Admin y Manager consultar todas las facturas.",
+    "status": "Draft",
+    "type": "Feature",
+    "parent_title": "Módulos de Pagos, Envíos y Facturación",
+    "suite_path": [
+      "KN-Store",
+      "Requerimientos Funcionales (RF)",
+      "Módulos de Pagos, Envíos y Facturación"
+    ]
+  },
+  {
+    "code": "RNF-001",
+    "title": "RNF-001 - Hashing de contraseñas",
+    "description": "Almacenamiento con bcrypt y costo no inferior a 10.",
+    "status": "Implemented",
+    "type": "Feature",
+    "parent_title": "Seguridad",
+    "suite_path": [
+      "KN-Store",
+      "Requerimientos No Funcionales (RNF)",
+      "Seguridad"
+    ]
+  },
+  {
+    "code": "RNF-002",
+    "title": "RNF-002 - Autenticación JWT",
+    "description": "Tokens con vigencia de 30 días, esquema Bearer.",
+    "status": "Implemented",
+    "type": "Feature",
+    "parent_title": "Seguridad",
+    "suite_path": [
+      "KN-Store",
+      "Requerimientos No Funcionales (RNF)",
+      "Seguridad"
+    ]
+  },
+  {
+    "code": "RNF-003",
+    "title": "RNF-003 - Validación de entradas",
+    "description": "Rutas de escritura con validaciones explícitas (express-validator).",
+    "status": "Implemented",
+    "type": "Feature",
+    "parent_title": "Seguridad",
+    "suite_path": [
+      "KN-Store",
+      "Requerimientos No Funcionales (RNF)",
+      "Seguridad"
+    ]
+  },
+  {
+    "code": "RNF-004",
+    "title": "RNF-004 - Control de acceso por rol",
+    "description": "Rutas privadas verifican roles.",
+    "status": "Implemented",
+    "type": "Feature",
+    "parent_title": "Seguridad",
+    "suite_path": [
+      "KN-Store",
+      "Requerimientos No Funcionales (RNF)",
+      "Seguridad"
+    ]
+  },
+  {
+    "code": "RNF-005",
+    "title": "RNF-005 - Eliminación lógica como mecanismo por defecto",
+    "description": "DELETE ejecuta eliminación lógica (active=false) inicialmente.",
+    "status": "Implemented",
+    "type": "Feature",
+    "parent_title": "Seguridad",
+    "suite_path": [
+      "KN-Store",
+      "Requerimientos No Funcionales (RNF)",
+      "Seguridad"
+    ]
+  },
+  {
+    "code": "RNF-006",
+    "title": "RNF-006 - Configuración de CORS",
+    "description": "Backend restringe orígenes permitidos explícitamente.",
+    "status": "Implemented",
+    "type": "Feature",
+    "parent_title": "Seguridad",
+    "suite_path": [
+      "KN-Store",
+      "Requerimientos No Funcionales (RNF)",
+      "Seguridad"
+    ]
+  },
+  {
+    "code": "RNF-007",
+    "title": "RNF-007 - Tiempo de respuesta",
+    "description": "Consultas al catálogo menores a 500ms (P95).",
+    "status": "Implemented",
+    "type": "Feature",
+    "parent_title": "Rendimiento",
+    "suite_path": [
+      "KN-Store",
+      "Requerimientos No Funcionales (RNF)",
+      "Rendimiento"
+    ]
+  },
+  {
+    "code": "RNF-008",
+    "title": "RNF-008 - Paginación obligatoria",
+    "description": "Consultas extensas soportan y aplican paginación por defecto.",
+    "status": "Implemented",
+    "type": "Feature",
+    "parent_title": "Rendimiento",
+    "suite_path": [
+      "KN-Store",
+      "Requerimientos No Funcionales (RNF)",
+      "Rendimiento"
+    ]
+  },
+  {
+    "code": "RNF-009",
+    "title": "RNF-009 - Índices en MongoDB",
+    "description": "Campos de búsqueda respaldados por índices declarados.",
+    "status": "Implemented",
+    "type": "Feature",
+    "parent_title": "Rendimiento",
+    "suite_path": [
+      "KN-Store",
+      "Requerimientos No Funcionales (RNF)",
+      "Rendimiento"
+    ]
+  },
+  {
+    "code": "RNF-010",
+    "title": "RNF-010 - Diseño responsivo",
+    "description": "Frontend adaptable desde 360px hasta 1920px.",
+    "status": "Implemented",
+    "type": "Feature",
+    "parent_title": "Usabilidad",
+    "suite_path": [
+      "KN-Store",
+      "Requerimientos No Funcionales (RNF)",
+      "Usabilidad"
+    ]
+  },
+  {
+    "code": "RNF-011",
+    "title": "RNF-011 - Animaciones e interacciones",
+    "description": "Animaciones sin reducir tasa de frames bajo 50 FPS.",
+    "status": "Implemented",
+    "type": "Feature",
+    "parent_title": "Usabilidad",
+    "suite_path": [
+      "KN-Store",
+      "Requerimientos No Funcionales (RNF)",
+      "Usabilidad"
+    ]
+  },
+  {
+    "code": "RNF-012",
+    "title": "RNF-012 - Sistema de tokens de diseño",
+    "description": "Colores y espacios manejados con tokens CSS.",
+    "status": "Implemented",
+    "type": "Feature",
+    "parent_title": "Usabilidad",
+    "suite_path": [
+      "KN-Store",
+      "Requerimientos No Funcionales (RNF)",
+      "Usabilidad"
+    ]
+  },
+  {
+    "code": "RNF-013",
+    "title": "RNF-013 - Mensajes de error claros",
+    "description": "Respuestas de error incluyen mensajes legibles sin exponer sistemas.",
+    "status": "Implemented",
+    "type": "Feature",
+    "parent_title": "Usabilidad",
+    "suite_path": [
+      "KN-Store",
+      "Requerimientos No Funcionales (RNF)",
+      "Usabilidad"
+    ]
+  },
+  {
+    "code": "RNF-014",
+    "title": "RNF-014 - Separación estricta de capas",
+    "description": "Respetar estructura Middleware → Controlador → Modelo.",
+    "status": "Implemented",
+    "type": "Feature",
+    "parent_title": "Mantenibilidad y Compatibilidad",
+    "suite_path": [
+      "KN-Store",
+      "Requerimientos No Funcionales (RNF)",
+      "Mantenibilidad y Compatibilidad"
+    ]
+  },
+  {
+    "code": "RNF-015",
+    "title": "RNF-015 - Convenciones de nomenclatura",
+    "description": "Uso estandarizado de camelCase, PascalCase y kebab-case.",
+    "status": "Implemented",
+    "type": "Feature",
+    "parent_title": "Mantenibilidad y Compatibilidad",
+    "suite_path": [
+      "KN-Store",
+      "Requerimientos No Funcionales (RNF)",
+      "Mantenibilidad y Compatibilidad"
+    ]
+  },
+  {
+    "code": "RNF-016",
+    "title": "RNF-016 - Documentación interna actualizada",
+    "description": "Cambios documentados sincronizados con cada release.",
+    "status": "Implemented",
+    "type": "Feature",
+    "parent_title": "Mantenibilidad y Compatibilidad",
+    "suite_path": [
+      "KN-Store",
+      "Requerimientos No Funcionales (RNF)",
+      "Mantenibilidad y Compatibilidad"
+    ]
+  },
+  {
+    "code": "RNF-017",
+    "title": "RNF-017 - Compatibilidad de navegadores",
+    "description": "Funcional en las dos últimas versiones mayores de Chrome, Firefox, Edge y Safari.",
+    "status": "Implemented",
+    "type": "Feature",
+    "parent_title": "Mantenibilidad y Compatibilidad",
+    "suite_path": [
+      "KN-Store",
+      "Requerimientos No Funcionales (RNF)",
+      "Mantenibilidad y Compatibilidad"
+    ]
+  },
+  {
+    "code": "RNF-018",
+    "title": "RNF-018 - Versión de Node.js",
+    "description": "Ejecución correcta sobre versiones LTS activas de Node.js (20.x+).",
+    "status": "Implemented",
+    "type": "Feature",
+    "parent_title": "Mantenibilidad y Compatibilidad",
+    "suite_path": [
+      "KN-Store",
+      "Requerimientos No Funcionales (RNF)",
+      "Mantenibilidad y Compatibilidad"
+    ]
+  },
+  {
+    "code": "RNF-019",
+    "title": "RNF-019 - Disponibilidad operativa",
+    "description": "Disponibilidad mensual de producción no inferior al 99,5%.",
+    "status": "Implemented",
+    "type": "Feature",
+    "parent_title": "Disponibilidad, Escalabilidad e Integridad",
+    "suite_path": [
+      "KN-Store",
+      "Requerimientos No Funcionales (RNF)",
+      "Disponibilidad, Escalabilidad e Integridad"
+    ]
+  },
+  {
+    "code": "RNF-020",
+    "title": "RNF-020 - Manejo robusto de errores",
+    "description": "Backend intercepta errores para evitar caídas de proceso.",
+    "status": "Implemented",
+    "type": "Feature",
+    "parent_title": "Disponibilidad, Escalabilidad e Integridad",
+    "suite_path": [
+      "KN-Store",
+      "Requerimientos No Funcionales (RNF)",
+      "Disponibilidad, Escalabilidad e Integridad"
+    ]
+  },
+  {
+    "code": "RNF-021",
+    "title": "RNF-021 - Arquitectura sin estado",
+    "description": "Backend no almacena sesión en memoria (habilita escalado).",
+    "status": "Implemented",
+    "type": "Feature",
+    "parent_title": "Disponibilidad, Escalabilidad e Integridad",
+    "suite_path": [
+      "KN-Store",
+      "Requerimientos No Funcionales (RNF)",
+      "Disponibilidad, Escalabilidad e Integridad"
+    ]
+  },
+  {
+    "code": "RNF-022",
+    "title": "RNF-022 - Capacidad de crecimiento",
+    "description": "Operación correcta con hasta 100.000 productos.",
+    "status": "Implemented",
+    "type": "Feature",
+    "parent_title": "Disponibilidad, Escalabilidad e Integridad",
+    "suite_path": [
+      "KN-Store",
+      "Requerimientos No Funcionales (RNF)",
+      "Disponibilidad, Escalabilidad e Integridad"
+    ]
+  },
+  {
+    "code": "RNF-023",
+    "title": "RNF-023 - Atomicidad del checkout",
+    "description": "Confirmación de pedido es una operación atómica.",
+    "status": "Draft",
+    "type": "Feature",
+    "parent_title": "Disponibilidad, Escalabilidad e Integridad",
+    "suite_path": [
+      "KN-Store",
+      "Requerimientos No Funcionales (RNF)",
+      "Disponibilidad, Escalabilidad e Integridad"
+    ]
+  },
+  {
+    "code": "RNF-024",
+    "title": "RNF-024 - Concurrencia en operaciones de stock",
+    "description": "Manejo de solicitudes simultáneas contra el inventario.",
+    "status": "Draft",
+    "type": "Feature",
+    "parent_title": "Disponibilidad, Escalabilidad e Integridad",
+    "suite_path": [
+      "KN-Store",
+      "Requerimientos No Funcionales (RNF)",
+      "Disponibilidad, Escalabilidad e Integridad"
+    ]
+  },
+  {
+    "code": "RNF-025",
+    "title": "RNF-025 - Auditoría de pagos y pedidos",
+    "description": "Modificaciones de estado generan registros con marca temporal.",
+    "status": "Draft",
+    "type": "Feature",
+    "parent_title": "Disponibilidad, Escalabilidad e Integridad",
+    "suite_path": [
+      "KN-Store",
+      "Requerimientos No Funcionales (RNF)",
+      "Disponibilidad, Escalabilidad e Integridad"
+    ]
+  },
+  {
+    "code": "RNF-026",
+    "title": "RNF-026 - Precisión monetaria",
+    "description": "Cálculos utilizan tipos numéricos DECIMAL(10,2) o DECIMAL(12,2).",
+    "status": "Draft",
+    "type": "Feature",
+    "parent_title": "Disponibilidad, Escalabilidad e Integridad",
+    "suite_path": [
+      "KN-Store",
+      "Requerimientos No Funcionales (RNF)",
+      "Disponibilidad, Escalabilidad e Integridad"
+    ]
+  }
+]
